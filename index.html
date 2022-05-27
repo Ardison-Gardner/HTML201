@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <img src="img/banner.jpeg" alt="Horizontal Banner with Hands Typing on Laptop Keyboard, Various Electronic Devices and Symbols. Art by Ernest Akayeu | Dreamstime.com" width="800">
   <title>HTML 201</title>
-  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/ico">
+  <link rel="shortcut icon" href="/img/favicon/favicon.ico" type="image/ico">
 </head>
 <body>
+  <img src="img/banner.jpeg" alt="Horizontal Banner with Hands Typing on Laptop Keyboard, Various Electronic Devices and Symbols. Art by Ernest Akayeu | Dreamstime.com" width="800">
   <h1 id="top">Welcome to HTML 201</h1>
   <a href="#bottom">Scroll to the bottom of the page.</a>
   <p>
@@ -66,6 +66,21 @@
     <span style="text-decoration:underline">Lorem, ipsum dolor sit amet consectetur adipisicing elit</span>. Obcaecati, officia laborum ea fuga facere impedit iusto doloribus similique nobis atque expedita tenetur. Nesciunt ipsam hic aut sapiente dolorem reprehenderit saepe.
   </p>
   <div id='bottom'>
+    <table border="1" width="100%">
+      <tbody>
+        <tr>
+          <td colspan="3">Cell 1</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Cell 2.1</td>
+          <td colspan="2">Cell 2.2</td>
+        </tr>
+        <tr>
+          <td>Cell 3.1</td>
+          <td>Cell 3.2</td>
+        </tr>
+      </tbody>
+    </table>
     <a href="#top">Back to top.</a>
   </div>
 </body>
